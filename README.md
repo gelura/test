@@ -1,1 +1,0 @@
-# gxg71.github.io

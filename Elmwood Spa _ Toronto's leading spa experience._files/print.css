@@ -1,0 +1,44 @@
+/*
+
+Author: Radii Production
+Comments: print.scss compiled to /css/print.css
+
+*/
+/************* Print Styles *************/
+@page {
+  size: letter; }
+
+@media print {
+  html, body {
+    width: 8.5in;
+    height: 11in; }
+  html, body {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+    color: #000000 !important;
+    float: none !important;
+    position: static !important;
+    overflow: visible !important;
+    width: auto !important;
+    border: 0 !important; }
+  body div, body span, body h1, body h2, body h3, body h4, body h5, body h6, body li, body a {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+    color: #000000 !important;
+    float: none !important;
+    position: static !important;
+    overflow: visible !important;
+    width: auto !important;
+    border: 0 !important; }
+  h1, h1.banner-txt {
+    font-size: 3rem !important; }
+  h2 {
+    font-size: 1.8rem !important; }
+  h3 {
+    font-size: 1.8rem !important; }
+  h4, h6 {
+    font-size: 1.6rem !important; }
+  h5, p, li {
+    font-size: 1.4rem !important; } }
